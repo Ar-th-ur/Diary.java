@@ -20,8 +20,4 @@ public class Main {
         diary.enter(Files.readAllLines(Path.of(path + "/src/info.txt")).get(0));
         diary.openDiary(LocalDate.now());
     }
-
-
-
-
 }
